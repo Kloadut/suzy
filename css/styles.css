@@ -1,0 +1,141 @@
+
+/* SWEET JESUS DAT CSS */
+
+html {
+    background: url('../images/pinup.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Arsenal', sans-serif;
+}
+
+h1.title {
+    font-family: 'Lobster Two', arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    color: #fafafa;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+}
+
+h2.subtitle {
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 40px;
+    padding: 0 10px;
+    background: #ef8e9f;
+    font-weight: bold;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.3);
+    color: #fafafa;
+}
+
+img.bonbon {
+    vertical-align: middle;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+
+img.bonbon:hover {
+    -webkit-transform:rotate(360deg);
+    -moz-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+}
+
+div.boo {
+    display: inline-block;
+    background: url('../images/boo.jpg') no-repeat center center;
+    width: 200px;
+    height: 253px;
+    vertical-align: middle;
+}
+
+div.boo:hover {
+    background: url('../images/boo2.jpg') no-repeat center center;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/Arsenal-Regular-webfont.eot');
+    src: url('../fonts/Arsenal-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arsenal-Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Arsenal-Regular-webfont.woff') format('woff'),
+         url('../fonts/Arsenal-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Arsenal-Regular-webfont.svg#arsenalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/Arsenal-Italic-webfont.eot');
+    src: url('../fonts/Arsenal-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arsenal-Italic-webfont.woff2') format('woff2'),
+         url('../fonts/Arsenal-Italic-webfont.woff') format('woff'),
+         url('../fonts/Arsenal-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/Arsenal-Italic-webfont.svg#arsenalitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/Arsenal-BoldItalic-webfont.eot');
+    src: url('../fonts/Arsenal-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arsenal-BoldItalic-webfont.woff2') format('woff2'),
+         url('../fonts/Arsenal-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/Arsenal-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/Arsenal-BoldItalic-webfont.svg#arsenalbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Arsenal';
+    src: url('../fonts/Arsenal-Bold-webfont.eot');
+    src: url('../fonts/Arsenal-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Arsenal-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/Arsenal-Bold-webfont.woff') format('woff'),
+         url('../fonts/Arsenal-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/Arsenal-Bold-webfont.svg#arsenalbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Lobster Two';
+    src: url('../fonts/LobsterTwo-Bold-webfont.eot');
+    src: url('../fonts/LobsterTwo-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LobsterTwo-Bold-webfont.woff2') format('woff2'),
+         url('../fonts/LobsterTwo-Bold-webfont.woff') format('woff'),
+         url('../fonts/LobsterTwo-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/LobsterTwo-Bold-webfont.svg#lobster_twobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
